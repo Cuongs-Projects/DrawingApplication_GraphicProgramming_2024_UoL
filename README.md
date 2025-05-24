@@ -6,7 +6,7 @@ The primary goal was to expand upon a provided template by implementing unique e
 
 The development process, including brainstorming, design choices, coding techniques, and challenges, is documented in the Individual Midterm Report for Week 12.pdf. The source code includes detailed comments and highlighted sections (in the provided code PDF) to indicate personally developed components.
 
-Unfortunately, due to my inexperience in coding at that time, this application is heavily unoptimised. The horrible lack of functions and putting everything in a few big functions made the application eat up the RAM of your devices. I **don't** recommend running this
+Unfortunately, due to my inexperience in coding at that time, this application is heavily unoptimised. The horrible lack of functions and putting everything in a few big functions made the application eat up the RAM of your devices. I ***don't*** recommend running this.
 
 - Core Features & Implemented Extensions:
 
