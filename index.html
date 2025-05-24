@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <script src="lib/p5.min.js"></script> -->
+    <script src="lib/p5.dom.js"></script>
+
+    <script src="sketch.js"></script>
+
+    <!-- add extra scripts below -->
+    <script src="lib/p5.min2.js"></script>
+    <script src="lib/p5.js"></script>
+
+    <script src="toolbox.js"></script>
+    <script src="colourPalette.js"></script>
+    <script src="helperFunctions.js"></script>
+
+    <script src="freehandTool.js"></script>
+    <script src="lineToTool.js"></script>
+    <script src="sprayCanTool.js"></script>
+    <script src="mirrorDrawTool.js"></script>
+      
+    <script src="stampTool.js"></script>
+    <script src="editableShapeTool.js"></script>
+    <script src="blurTool.js"></script>
+    <script src="blurToolGaussian.js"></script>
+    <script src="eraserTool.js"></script>
+    <script src="grid.js"></script>
+
+    <script src="addonHelpersStuff.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  	<div class="wrapper">
+      <div class="box header">My Drawing App
+        <button id="clearButton">Clear</button>
+        <button id="saveImageButton">Save Image</button>
+      </div>
+      <div class="box" id="sidebar"></div>
+      <div id="content"></div>
+      <div class="box colourPalette"></div>
+      <div class="box options"></div>
+      <!-- To display the UI to allow the user to upload any pictures to use as stamp. -->
+      <div class="box stampUpload" id="stampUpload">
+        <form onsubmit="return false; ">
+          <label for="img" style="font-size:20px;">Add custom stamp:</label>
+          <input type="file" id="myFileInput" required>
+        </form>
+        <script src="toAddCustomStamp.js"></script>
+      </div>
+      <!-- To display the helper functions -->
+      <div id="dropbox">Grid:</div>
+      <div id="slider">Thickness:</div>
+      <div id="radio">Layer:</div>
+	</div>
+  </body>
+</html>
